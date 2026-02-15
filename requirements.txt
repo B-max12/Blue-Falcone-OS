@@ -1,0 +1,40 @@
+# ============================================
+# Taleem OS - Python Dependencies
+# ============================================
+# Install with: pip install -r requirements.txt
+
+# --- Web Framework (for parental dashboard) ---
+Flask==3.1.0
+Flask-Login==0.6.3
+Flask-SQLAlchemy==3.1.1
+
+# --- Database ---
+SQLAlchemy==2.0.36
+
+# --- Content Filtering ---
+requests==2.32.3
+beautifulsoup4==4.12.3
+urllib3==2.3.0
+
+# --- System Monitoring ---
+psutil==6.1.1
+
+# --- Configuration ---
+PyYAML==6.0.2
+python-dotenv==1.0.1
+
+# --- Testing ---
+pytest==8.3.4
+pytest-cov==6.0.0
+pytest-mock==3.14.0
+
+# --- Code Quality ---
+flake8==7.1.1
+black==24.10.0
+isort==5.13.2
+
+# --- Utilities ---
+click==8.1.8
+colorama==0.4.6
+tqdm==4.67.1
+Jinja2==3.1.5

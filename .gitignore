@@ -1,0 +1,66 @@
+# ============================================
+# Taleem OS - .gitignore
+# ============================================
+
+# --- ISO Build Workspace ---
+iso/
+*.iso
+*.img
+*.squashfs
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+.env/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Build Output ---
+output/
+*.deb
+*.snap
+
+# --- Temporary Files ---
+tmp/
+temp/
+*.tmp
+*.bak
+
+# --- Testing ---
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# --- Environment Variables ---
+.env
+.env.local
+.env.*.local
